@@ -22,14 +22,13 @@ body{
     background-size: cover;
     min-height: 100vh;
     padding: 128px;
+    color: white;
 }
 
-@media screen and (max-width: 768px;){
+@media screen and (max-width: 768px){
     .container {
         padding: 48px;
     }
-}
-    
 }
 
 .content{
@@ -44,7 +43,7 @@ body{
     margin-bottom: 10px;
 }
 
-@media screen and (max-width: 768px;){
+@media screen and (max-width: 768px){
     .name {
         font-size: 18px;
     }
