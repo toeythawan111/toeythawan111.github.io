@@ -1,0 +1,74 @@
+body{ 
+    font-family: 
+    "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    }
+
+.button{
+    background-color: black;
+    color: white;
+    padding: 8px 9px 9px 8px ;
+    text-decoration: none;
+
+}
+
+.container{
+    background-image: linear-gradient(to right, rgba(255,255,255,0), rgba(255,255,255,100)),url('https://images.unsplash.com/photo-1686061594183-8c864f508b00?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-repeat: no-repeat;
+    background-position: bottm right;
+    background-size: cover;
+    min-height: 100vh;
+    padding: 128px;
+}
+
+@media screen and (max-width: 768px;){
+    .container {
+        padding: 48px;
+    }
+}
+    
+}
+
+.content{
+
+    max-width: 500px;
+}
+
+.name{
+    font-size: 36px;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 768px;){
+    .name {
+        font-size: 18px;
+    }
+}
+
+.job{
+    font-size: 24px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.about{
+    font-size: 18px;
+    color: white;
+    margin-bottom: 10px;
+
+}
+
+.pic-of-me{
+    width: 210px;
+    height: 250px;
+    margin-bottom: 20px;
+    border-radius: 30%;
+    object-fit: cover;
+    box-shadow: 10px 10px 0px black;
+}
